@@ -1,7 +1,7 @@
 if SHIELD_CHOCOFI_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "Chocofi"
+	default "Corne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
@@ -13,18 +13,6 @@ if SHIELD_CHOCOFI_LEFT || SHIELD_CHOCOFI_RIGHT
 config ZMK_SPLIT
 	default y
 
-if ZMK_DISPLAY
-
-config I2C
-	default y
-
-config SSD1306
-	default y
-
-config SSD1306_REVERSE_MODE
-	default y
-
-endif # ZMK_DISPLAY
 
 if LVGL
 
