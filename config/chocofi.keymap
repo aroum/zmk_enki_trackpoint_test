@@ -21,7 +21,7 @@
 // Enable Mouse Keys
 #include "includes/mouse_keys.dtsi"
 
-/ {
+
 / {
         keymap {
                 compatible = "zmk,keymap";
