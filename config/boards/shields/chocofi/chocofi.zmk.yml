@@ -3,6 +3,7 @@ id: chocofi
 name: Chocofi
 type: shield
 url: https://github.com/pashutk/chocofi
+requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
