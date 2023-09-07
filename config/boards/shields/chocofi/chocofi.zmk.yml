@@ -3,11 +3,9 @@ id: chocofi
 name: Chocofi
 type: shield
 url: https://github.com/pashutk/chocofi
-requires: [pro_micro]
-exposes: [i2c_oled]
-features:
+requires: [seeeduino_xiao_ble]
+features:    
   - keys
-  - display
 siblings:
   - chocofi_left
   - chocofi_right
