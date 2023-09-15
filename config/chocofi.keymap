@@ -34,9 +34,9 @@
 
         base_layer {
             bindings = <
-   &kp Q      &kp W       &kp F         &kp P         &kp B           &kp J       &kp L       &kp U       &kp Y         &kp SQT
-   &hm LGUI A &hm LALT R  &hm LCTRL S   &hm LSHFT T   &kp G           &kp M       &hm LSHFT N &hm LCTRL E &hm LALT I    &hm LGUI O
-   &kp Z      &hm RALT X  &kp C         &kp D         &kp V           &kp K       &kp H       &kp COMMA   &hm RALT DOT  &kp FSLH
+   &kp Q      &kp W       &kp E         &kp R         &kp T           &kp Y       &kp U       &kp I       &kp O         &kp P
+   &hm LGUI A &hm LALT S  &hm LCTRL D   &hm LSHFT D   &kp F           &kp G       &hm LSHFT H &hm LCTRL J &hm LALT K    &hm LGUI SEMI
+   &kp Z      &hm RALT X  &kp C         &kp V         &kp B           &kp N       &kp M       &kp COMMA   &hm RALT DOT  &kp FSLH
                           &lt MEDIA ESC &lt NAV SPACE &lt MOUSE TAB   &lt SYM RET &lt NUM BSPC &lt FUN DEL
             >;
         };
@@ -72,7 +72,7 @@
             bindings = <
    &kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bootloader
    &kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS    &trans     &kp LSHFT    &kp LCTRL    &kp LALT     &kp LGUI
-   &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE    &trans     &trans       &trans       &trans       &sys_reset
+   &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE    &SQT       &GRAVE       &LBKT       &RBKT         &kp BSLH
                       &kp LPAR  &kp RPAR  &kp UNDER   &trans     &trans       &trans
             >;
         };
